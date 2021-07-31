@@ -21,15 +21,17 @@ ylabel('\epsilon_{11}')
 
 
 figure(2,'position',[50,50,1000,750])
-plot(strain_11,Stress,'g-',"linewidth", 1) 
+plot(strain_11,Stress,'r-',"linewidth", 1.2)
+set(gca, "linewidth",1.2, "fontsize", 12)
 xlabel('\epsilon_{11}')
 ylabel('\sigma_{11} (N/m^2)')
 
 
 figure(3,'position',[50,50,1000,750])
-plot(strain_11,strain_22,'k-',"linewidth", 1)
+plot(strain_11,strain_22,'k-',"linewidth", 1.2)
 hold on
-plot(strain_11,strain_33,'g--',"linewidth", 1)
+plot(strain_11,strain_33,'g--',"linewidth", 1.2)
+set(gca, "linewidth",1.2, "fontsize", 12)
 legend('\epsilon_{22}','\epsilon_{33}','Location','NorthEast')
 xlabel('\epsilon_{11}')
 ylabel('\epsilon_{22},\epsilon_{33}')
