@@ -15,9 +15,9 @@ user_ex = D(:,2);
 
 
 figure(1,'position',[50,50,1000,750])
-plot(Ansys_ex,Ansys_sx,'b-',"linewidth", 1.5)
+plot(Ansys_ex,Ansys_sx,'r-',"linewidth", 2.5)
 hold on
-plot(user_ex ,user_sx ,'g--',"linewidth", 1.5)
+plot(user_ex ,user_sx ,'g--',"linewidth", 2.5)
 set(gca, "linewidth",1.2, "fontsize", 12)
 legend('ANSYS','USERMAT','Location','SouthEast','fontsize',8)
 xlabel('\epsilon_{x}')

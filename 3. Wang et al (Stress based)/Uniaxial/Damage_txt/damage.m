@@ -19,22 +19,22 @@ e11  = F(:,1);
 
 
 figure(1,'position',[50,50,1000,750])
-plot(e11,d1_01,'k-',"linewidth", 1.2) 
+plot(e11,d1_01,'k-',"linewidth", 2) 
 
 hold on
-plot(e11,d1_02,'m-',"linewidth", 1.2) 
+plot(e11,d1_02,'m-',"linewidth", 2) 
 
 hold on
-plot(e11,d1_03,'c-',"linewidth", 1.2) 
+plot(e11,d1_03,'c-',"linewidth", 2) 
 
 hold on
-plot(e11,d1_05,'r-',"linewidth", 1.2) 
+plot(e11,d1_05,'r-',"linewidth", 2) 
 
 hold on
-plot(e11,d1_08,'g-',"linewidth", 1.2) 
+plot(e11,d1_08,'g-',"linewidth", 2) 
 
 hold on
-plot(e11,d1_1,'b-',"linewidth", 1.2) 
+plot(e11,d1_1,'b-',"linewidth", 2) 
 set(gca, "linewidth",1.2, "fontsize", 12)
 legend('V = 0.1 mm',' V = 0.2 mm','V = 0.3 mm','V = 0.5 mm',' V = 0.8 mm','V = 1 mm','Location','SouthEast','fontsize',10)
 
