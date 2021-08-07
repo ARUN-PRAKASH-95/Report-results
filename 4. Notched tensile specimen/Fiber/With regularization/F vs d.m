@@ -23,7 +23,7 @@ figure(1,'position',[50,50,1300,950])
 plot(displacement1,force1,'b-',"linewidth", 2) 
 
 hold on
-plot(displacement05,force05,'g-',"linewidth", 2)
+plot(displacement05,force05,'k-',"linewidth", 2)
 
 hold on
 plot(displacement025,force025,'r-',"linewidth", 2) 

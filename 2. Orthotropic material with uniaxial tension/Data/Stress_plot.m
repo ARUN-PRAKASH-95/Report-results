@@ -20,18 +20,18 @@ xlabel('time')
 ylabel('\epsilon_{11}')
 
 
-figure(2,'position',[50,50,1000,750])
-plot(strain_11,Stress,'r-',"linewidth", 2) 
-set(gca, "linewidth",1.2, "fontsize", 12)
+figure(2,'position',[50,50,1300,950])
+plot(strain_11,Stress,'k-',"linewidth", 2) 
+set(gca, "linewidth",1.2, "fontsize", 15)
 xlabel('\epsilon_{11}')
 ylabel('\sigma_{11} (N/m^2)')
 
 
-figure(3,'position',[50,50,1000,750])
-plot(strain_11,strain_22,'k-',"linewidth", 1.2)
+figure(3,'position',[50,50,1300,950])
+plot(strain_11,strain_22,'k-',"linewidth", 2)
 hold on
-plot(strain_11,strain_33,'g--',"linewidth", 1.2)
-set(gca, "linewidth",1.2, "fontsize", 12)
-legend('\epsilon_{22}','\epsilon_{33}','Ref.','Location','SouthEast')
+plot(strain_11,strain_33,'g--',"linewidth", 2)
+set(gca, "linewidth",1.2, "fontsize", 15)
+legend('\epsilon_{22}','\epsilon_{33}','Location','SouthEast')
 xlabel('\epsilon_{11}')
 ylabel('\epsilon_{22},\epsilon_{33}')
