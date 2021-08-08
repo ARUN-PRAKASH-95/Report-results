@@ -20,7 +20,7 @@ plot(displacement05l,force05l,'b-',"linewidth", 2)
 hold on
 plot(displacement05t,force05t,'k-',"linewidth", 2)
  
-legend('Longitudinal direction','Transverse direction','Location','NorthWest', "fontsize", 10)
+legend('Longitudinal direction','Transverse direction','Location','SouthEast', "fontsize", 10)
 set(gca, "linewidth",1.2, "fontsize", 15)
 
 
