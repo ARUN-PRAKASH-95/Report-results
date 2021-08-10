@@ -10,10 +10,10 @@ displacement05 = C(:,2);
 D= load('0.5fx.txt');
 force05= D(:,2);
 
-E=load('0.25ux.txt');
+E=load('0.25ux2.txt');
 displacement025= E(:,2);
 
-F= load('0.25fx.txt');
+F= load('0.25fx2.txt');
 force025 = F(:,2);
 
 
