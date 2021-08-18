@@ -23,12 +23,12 @@ plot(time,sy,'b-',"linewidth", 2)
 hold on
 plot(time,sxy,'r-',"linewidth", 2)
  
-legend('\sigma_{x}','\sigma_{y}','\sigma_{xy}','Location','NorthEast', "fontsize", 10)
+legend('\sigma_{x}','\sigma_{y}','\sigma_{xy}','Location','NorthEast', "fontsize", 15)
 set(gca, "linewidth",1.2, "fontsize", 15)
 
 
-xlabel('Time')
-ylabel('Stress N/m^2')
+xlabel('Time', "fontsize", 20)
+ylabel('Stress in N/m^2', "fontsize", 20)
 
 
 

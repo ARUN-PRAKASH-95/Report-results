@@ -27,12 +27,12 @@ plot(displacement05,force05,'k-',"linewidth", 2)
 
 hold on
 plot(displacement025,force025,'r-',"linewidth", 2) 
-legend('h=1mm',' h=0.5mm','h=0.25mm','Location','NorthWest', "fontsize", 10)
+legend('h=1mm',' h=0.5mm','h=0.25mm','Location','NorthWest', "fontsize", 15)
 set(gca, "linewidth",1.2, "fontsize", 15)
 
 
-xlabel('Displacement (m)')
-ylabel('Force (N)')
+xlabel('Displacement in m', "fontsize", 17)
+ylabel('Force in N', "fontsize", 17)
 
 
 

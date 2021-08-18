@@ -60,8 +60,9 @@ legend('\alpha = 0','\alpha = 0.1','\alpha = 0.2','\alpha = 0.3','\alpha = 0.5',
 set(gca, "linewidth",1.2, "fontsize", 15)
 
 
-xlabel('Displacement (m)')
-ylabel('Force (N)')
+xlabel('Displacement in m', "fontsize", 17)
+ylabel('Force in N', "fontsize", 17)
+
 
 
 

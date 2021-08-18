@@ -38,11 +38,11 @@ hold on
 plot(e11,d1_1,'b-',"linewidth", 2) 
 
 set(gca, "linewidth",1.2, "fontsize", 15)
-legend('P = 0.1',' P = 0.2','P = 0.3','P = 0.5',' P = 0.8','P = 1','Location','SouthEast','fontsize',10)
+legend('P = 0.1',' P = 0.2','P = 0.3','P = 0.5',' P = 0.8','P = 1','Location','SouthEast','fontsize',12)
 
 
-xlabel('\epsilon_{11}')
-ylabel('d1')
+xlabel('\epsilon_{11}',"fontsize", 20)
+ylabel('d1',"fontsize", 20)
 
 
 

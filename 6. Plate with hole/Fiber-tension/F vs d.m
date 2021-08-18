@@ -16,8 +16,8 @@ plot(displacement,force,'k-',"linewidth", 2)
 set(gca, "linewidth",1.2, "fontsize", 15)
 
 
-xlabel('Displacement (m)')
-ylabel('Force (N)')
+xlabel('Displacement in m', "fontsize", 17)
+ylabel('Force in N', "fontsize", 17)
 
 
 

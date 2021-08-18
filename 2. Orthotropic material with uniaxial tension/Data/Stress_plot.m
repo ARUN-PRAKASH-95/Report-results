@@ -23,8 +23,8 @@ ylabel('\epsilon_{11}')
 figure(2,'position',[50,50,1300,950])
 plot(strain_11,Stress,'k-',"linewidth", 2) 
 set(gca, "linewidth",1.2, "fontsize", 15)
-xlabel('\epsilon_{11}')
-ylabel('\sigma_{11} (N/m^2)')
+xlabel('\epsilon_{11}', "fontsize", 20)
+ylabel('\sigma_{11} in N/m^2', "fontsize", 20)
 
 
 figure(3,'position',[50,50,1300,950])
